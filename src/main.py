@@ -179,7 +179,7 @@ def main(current_user, configuration):
         #We book the class and notify to Telegram if required.
         if client.book_class(class_day, target_class):
             if notify_on_telegram:
-                bot.send_message(telegram_chat_id, f"\U00002705 {class_name}! _{class_day.strftime('%A')}_ {class_day.strftime('%d.%m.%Y')} at {class_time[:2]}:{class_time[2:]} - [{target_class["ocupation"]}/{target_class["limit"]}] ({target_class["id"]})")
+                bot.send_message(telegram_chat_id, f"\U00002705 {class_name}! _{class_day.strftime('%A')}_ {class_day.strftime('%d.%m.%Y')} at {class_time[:2]}:{class_time[2:]} - [{target_class['ocupation']}/{target_class['limit']}] ({target_class['id']})")
             logger.debug(f"{current_user} - Training booked successfully!! {class_day.strftime('%A')} - {class_day.strftime('%Y-%m-%d')} at {class_time} -  {class_name}")
         else:
             logger.debug(f"{current_user} - Booking of the training unsuccessful. Target day: {class_day.strftime('%Y-%m-%d')}")
