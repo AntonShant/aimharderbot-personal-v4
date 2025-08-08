@@ -28,7 +28,7 @@ jobs:
         python src/main.py \
           --email "${{ secrets.EMAIL }}" \
           --password "${{ secrets.PASSWORD }}" \
-          --booking-goals '{"0": {"time":"0800", "name":"CrossFit"}, "1": {"time":"0800", "name":"CrossFit"}, "2": {"time":"0800", "name":"CrossFit"}, "3": {"time":"0800", "name":"CrossFit"}, "4": {"time":"0800", "name":"CrossFit"}}' \
+          --booking-goals '{"5": {"time":"0800", "name":"CrossFit"}, "6": {"time":"0800", "name":"CrossFit"}, "0": {"time":"0800", "name":"CrossFit"}, "1": {"time":"0800", "name":"CrossFit"}, "2": {"time":"0800", "name":"CrossFit"}}' \
           --box-name "crossfitgerak" \
           --box-id "10287" \
           --hours-in-advance "46" \
