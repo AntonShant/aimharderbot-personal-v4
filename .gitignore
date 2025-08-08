@@ -1,0 +1,9 @@
+venv
+__pycache__
+.idea
+.vscode/
+/logs
+/.venv
+config/aimharderbot_config.yaml
+docs/api_docs.md
+resources/example*
