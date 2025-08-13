@@ -1,24 +1,25 @@
-email: shantyranton@gmail.com
-password: zocdaz-3xomfi-xevcyS
-box_name: crossfitgerak
-box_id: 10287
-hours_in_advance: 46
-booking_goals:
-  "5":
-    time: "0800"
-    name: CrossFit
-  "6":
-    time: "0800"
-    name: CrossFit
-  "0":
-    time: "0800"
-    name: CrossFit
-  "1":
-    time: "0800"
-    name: CrossFit
-  "2":
-    time: "0800"
-    name: CrossFit
-telegram_bot_token: "8164187860:AAF081LE5C40g8m7GCGV5WMQKPM_OoY-8N4"
-telegram_chat_id: "1732485986"
-notify_on_telegram: true
+anton:
+  email: shantyranton@gmail.com
+  password: zocdaz-3xomfi-xevcyS
+  box_name: crossfitgerak
+  box_id: 10287
+  hours_in_advance: 46
+  booking_goals:
+    "5":
+      time: "0800"
+      name: CrossFit
+    "6":
+      time: "0800"
+      name: CrossFit
+    "0":
+      time: "0800"
+      name: CrossFit
+    "1":
+      time: "0800"
+      name: CrossFit
+    "2":
+      time: "0800"
+      name: CrossFit
+  telegram_bot_token: "8164187860:AAF081LE5C40g8m7GCGV5WMQKPM_OoY-8N4"
+  telegram_chat_id: "1732485986"
+  notify_on_telegram: true
