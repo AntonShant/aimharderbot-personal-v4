@@ -226,8 +226,8 @@ if __name__ == "__main__":
     logger = init_logger()
 
     for config in load_yaml_config(config_file):
-	print("CONFIG TYPE:", type(config))
-	print("CONFIG VALUE:", config)
+print("CONFIG TYPE:", type(config))
+print("CONFIG VALUE:", config)
         for user_name, user_config in config.items():
             try:
                 main(user_name, user_config)
