@@ -26,7 +26,7 @@ jobs:
 
     - name: Run the bot
       run: |
-        python src/main.py \
+        python src/main.py --config-filename config/example_config.yaml
           --email "${{ secrets.EMAIL }}" \
           --password "${{ secrets.PASSWORD }}" \
           --booking-goals '{"5": {"time":"0800", "name":"CrossFit"}, "6": {"time":"0800", "name":"CrossFit"}, "0": {"time":"0800", "name":"CrossFit"}, "1": {"time":"0800", "name":"CrossFit"}, "2": {"time":"0800", "name":"CrossFit"}}' \
